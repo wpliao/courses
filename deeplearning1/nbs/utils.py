@@ -1,6 +1,9 @@
 from __future__ import division,print_function
 import math, os, json, sys, re
-import cPickle as pickle
+if sys.version_info > (3, 0): # Check Python version
+    import _pickle as pickle
+else:
+    import cPickle as pickle
 from glob import glob
 import numpy as np
 from matplotlib import pyplot as plt
