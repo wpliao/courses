@@ -5,3 +5,7 @@ These are the lecture materials from [Practical Deep Learning for Coders](http:/
 ## Plan on this project
 
 - Support Python 3
+
+## Machine Specs
+
+- GTX1080 / GTX1070
